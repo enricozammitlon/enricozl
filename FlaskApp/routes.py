@@ -1,6 +1,7 @@
-from flask import Flask,render_template,request,flash
+from flask import Flask,render_template,request,flash,session,abort,redirect,url_for
 from forms import ContactForm
 from flask_mail import Message,Mail
+from form2 import LoginForm
 
 app = Flask(__name__,static_folder='static', static_url_path='/static')
 app.secret_key='mybibbar2'
@@ -28,3 +29,24 @@ def index():
             return render_template('index.html',success=True,form=form)
     elif request.method == 'GET':
         return render_template('index.html',form=form)
+
+@app.route('/login', methods=['GET','POST'])
+def do_admin_login():
+    form= LoginForm()
+    if request.method == 'GET':
+        if not session.get('logged_in'):
+            return render_template('login.html',form=form)
+        else:
+            return render_template('mainpage.html')
+    elif request.method == 'POST':
+        if form.password.data == 'password' and form.username.data == 'admin':
+            session['logged_in'] = True
+            return render_template('mainpage.html')
+        else:
+            flash('wrong password!')
+            return render_template('login.html',form=form)
+
+@app.route('/logout')
+def logout():
+    session['logged_in'] = False
+    return redirect(url_for('do_admin_login'))
