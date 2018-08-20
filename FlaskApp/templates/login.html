@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="/static/loginstyle.css" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+<div class="login">
+  <div class="login-header">
+    <h1>Login</h1>
+  </div>
+  <div class="login-form">
+    <form method=POST action="\login">
+      {{ form.hidden_tag() }}
+    <h3>Username:</h3>
+    {{ form.username }}
+    <h3>Password:</h3>
+    {{ form.password }}
+    <br>
+	{{ form.submit }}
+	
+    <br>
+  </div>
+</div>
+
+
+
+
