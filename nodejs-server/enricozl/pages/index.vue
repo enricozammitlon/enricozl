@@ -3,7 +3,7 @@
     <div>
       <logo/>
       <h1 class="title">
-        enricozl
+        Hi! I'm Enrico.
       </h1>
       <h2 class="subtitle">
         My legendary Nuxt.js project
