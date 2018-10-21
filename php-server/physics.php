@@ -23,7 +23,7 @@
 	    </div>
 	    <nav>
 	      <ul role="navigation" class="hidden" id="menu-stuff">
-	      	<li><a href="index2.php">home</a></li>
+	      	<li><a href="index.php">home</a></li>
 	        <li><a href="softwareng.php">software engineering</a></li>
 	        <li><a href="files/CV.pdf">resume</a></li>
 	        <li><a href="contact.php">contact</a></li>

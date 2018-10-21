@@ -13,7 +13,7 @@
 <div class="frame">
   <div class="piece output">
     <div class="Menu">
-      <p><a href="/index2.php">Homepage</a> <a href="/physics.php">Physics</a> <a href="/contact.php">Contact</a></p>
+      <p><a href="/index.php">Homepage</a> <a href="/physics.php">Physics</a> <a href="/contact.php">Contact</a></p>
     </div>
     <h1>Computers & I</h1>
     <p>
