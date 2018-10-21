@@ -1,0 +1,178 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+
+html{
+  height: 100%;
+  width:100%;
+}
+
+body, input, textarea, select {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2em;
+  color: white;
+  font-weight: 500;
+}
+
+body{
+  /* 
+  This removes scrollbars
+  See https://stackoverflow.com/a/20310218
+  */
+  position:absolute; top:0; bottom:0; right:0; left:0; 
+  display:flex;
+  flex-direction: column;
+  background-image: url("/img/fulls/04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.giant{
+  font-size: 50px;
+}
+
+.large{
+  font-size: 40px;
+}
+
+.inline-div {
+  display: inline-flex;
+}
+
+.inline-div :first-child {
+  margin-right:10px;
+}
+
+#passions {
+  font-weight: 800;
+}
+
+#social-div {
+  margin-left: -45px;
+}
+
+.middle-circle {
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-bottom: auto;
+  margin-top: auto;
+  text-align: center;
+}
+
+/* 
+  The following takes care of the icons
+  for stuff like linkedin,github etc...
+  Directly from html5up.net free template
+*/
+ul.default {
+  list-style: disc;
+}
+
+
+  ul.social li {
+    position: relative;
+    display: inline-block;
+    margin: 0.25em;
+    top: 0;
+  }
+
+    ul.social li a {
+      -moz-transition: top .2s ease-in-out;
+      -webkit-transition: top .2s ease-in-out;
+      -ms-transition: top .2s ease-in-out;
+      transition: top .2s ease-in-out;
+      display: block;
+      width: 48px;
+      height: 48px;
+      border-radius: 6px;
+      top: 0;
+      color:black;
+      position: relative;
+    }
+
+      ul.social li a:before {
+        -moz-transition: background-color .2s ease-in-out;
+        -webkit-transition: background-color .2s ease-in-out;
+        -ms-transition: background-color .2s ease-in-out;
+        transition: background-color .2s ease-in-out;
+        background-color: #444;
+        border-radius: 6px;
+        box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
+        color: white;
+        display: block;
+        font-size: 30px;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        outline: 0;
+        overflow: hidden;
+        text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
+        width: 48px;
+      }
+
+      ul.social li a.fa-linkedin {
+        background-color: #FAFAFA;
+      }
+
+      ul.social li a.fa-github {
+        background-color: #FAFAFA;
+      }
+
+      ul.social li a.fa-soundcloud {
+        background-color: #FAFAFA;
+      }
+
+      ul.social li a:hover {
+        top: -5px;
+      }
+
+/* Icons */
+
+.icon {
+  text-decoration: none;
+}
+
+  .icon:before {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 1.25em;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon > .label {
+    display: none;
+  }
+
+  .icon.featured {
+    color: #ff6a00;
+    display: block;
+    margin: 0 0 1.5em 0;
+    cursor: default;
+  }
+
+    .icon.featured:before {
+      font-size: 6em;
+    }
+
+
+/* 
+  This is mobile optimizations
+*/
+@media only screen and (max-width:600px){
+  .large{
+    font-size: 20px;
+  }
+
+  body, input, textarea, select {
+    line-height: 1.2em;
+  }
+
+.inline-div :first-child {
+  margin-right:5px;
+}
+
+}

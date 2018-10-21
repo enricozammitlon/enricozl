@@ -1,0 +1,122 @@
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px;
+  height: 500px;
+  /*This: https://stackoverflow.com/questions/8232713/how-to-display-scroll-bar-onto-a-html-table#8232794*/
+}
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+}
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th, .rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: white;
+  flex-direction: row;
+}
+
+.modules {
+  display:flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  padding-left: 3%;
+}
+
+.menu-section {
+  align-self: center;
+}
+
+h1{
+  align-self: center;
+}
+
+.rwd-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow:auto;  
+  display: flex;
+}
+.rwd-table tr {
+  border-color: #46637f;
+}
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+}
+
+
+.abstract {
+  /*! margin-top: 10%; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  min-width: 50%;
+}
+
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    padding: 1em !important;
+  }
+}
+@media (max-width: 600px){
+  .modules {
+    margin-top: 20%;
+    align-items: center;
+  }
+  h4{
+    max-width:100%;
+  }
+  .desktop {
+    display: none;
+  }
+}
+@media (min-width: 800px){
+  .rwd-table {
+    width:500px;
+  }
+}
+.rwd-table th, .rwd-table td:before {
+  color: #dd5;
+}
