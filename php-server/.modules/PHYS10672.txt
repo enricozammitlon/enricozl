@@ -1,0 +1,68 @@
+CREDITS:10
+---
+LECTURER/S:Prof. A. Pilaftsis
+---
+PREREQ:PHYS10071, PHYS10101, PHYS10121
+---
+FOLLOWUP:PHYS20401,
+PHYS30441,
+PHYS30201,
+PHYS40202,
+PHYS40481,
+PHYS40771,
+PHYS40992.
+---
+CLASSES:24 lectures in S2 or S4
+---
+ASSESMENT:1 hour 30 minutes examination in May/June
+---
+AIMS:On completion successful students will be able to:
+1. know Newton's theory of gravitation and to apply it to problems of planetary motion and space travel.
+2. use inertial forces to explain motion from the viewpoint of rotating frames of reference.
+3. know the general relation between the angular velocity and angular momentum of a rigid body, and to
+solve problems in rotational dynamics.
+4.
+solve problems in relativistic dynamics using energy-momentum four vectors.
+---
+TXTBOOKS:Recommended texts
+Barger, V. D. & Olsson, M. G. Classical Mechanics: a Modern Perspective, (McGraw-Hill)
+Forshaw, J. & Smith, A. G. Dynamics and Relativity, (Wiley)
+Marion, J. B. & Thornton, S. T. Classical Dynamics of Particles and Systems, (Academic)
+Spiegel, M. R. Schaum’s Outline of Theoretical Mechanics, (McGraw-Hill Book Company).
+---
+SYLLABUS:1.
+Preliminaries
+(3 Lectures)
+Newton’s laws of motion
+Linear and angular momentum, force and torque
+The two-body system
+2.
+Gravitation
+(6 Lectures)
+Force fields and potentials
+Newtonian gravity
+Kepler’s motion in a central force field
+Particle orbits as conic sections and Kepler's laws
+3.
+Noninertial Frames of Reference
+(3 Lectures)
+Motion in rotating frames
+Centrifugal and coriolis forces
+4.
+Rigid-Body Motion
+(6 Lectures)
+Angular velocity and angular momentum vectors
+Moment-of-inertia tensor
+Principal moments of inertia
+Euler's equations
+Free rotation and stability
+Gyroscopes
+5. Relativistic Dynamics
+(6 Lectures)
+Principles of special relativity
+The covariant formalism
+Lorentz transformations and relativistic invariance
+Relativistic momentum and energy
+Applications to relativistic kinematics
+---
+

@@ -1,0 +1,43 @@
+CREDITS:10
+---
+LECTURER/S:Dr.J.McGovern
+---
+PREREQ:PHYS20171, PHYS20672
+---
+FOLLOWUP:Theoretical physics courses in 4th year
+---
+CLASSES:23 lectures in S6
+---
+ASSESMENT:1 hour 30 minutes examination in June.
+---
+AIMS:On completion successful students will be able to:
+1. describe the basic properties of the eigenfunctions of Sturm-Liouville operators.
+2. derive the eigenfunctions and eigenvalues of S-L operators in particular cases.
+3. recognize when a Green's function solution is appropriate and construct the Green's function for some well known physical equations.
+4. recognize and solve particular cases of Fredholm and Volterra integral equations.
+5. solve a variational problem by constructing an appropriate functional, and solving the Euler-Lagrange equations.
+6. solve problems related to the course material with the help of Mathematica.
+---
+TXTBOOKS:Recommended texts
+Arfken, G.B. Weber, H.J. Mathematical Methods for Physicists (Academic Press)
+Riley, K.F. Hobson, M. P. & Bence, S. J. Mathematical Methods for Physics and Engineering (CUP)
+---
+SYLLABUS:1. Review of linear vector spaces       (1 lecture)
+Definition; linear independence and basis vectors; function spaces; orthogonality and completeness relations.
+
+2. Eigenvectors and eigenvalues     (5 lectures)
+Review of linear operators; adjoint and Hermitian operators; eigenvectors and eigenvalues.
+Weight functions.  Sturm-Liouville theory; Hermitian Sturm-Liouville operators.  Spherical harmonics and Legendre's equation.  The quantum oscillator and Hermite's equation.  Orthogonal polynomials.
+
+3. Green's functions     (5 lectures)
+Definition. Example: electrostatics.  Construction of Green's functions: the eigenstate method; the continuity method.  Quantum scattering in the time-independent approach; perturbation theory.
+Travelling waves.  Example: electromagnetism.  The Fourier transform method; retarded Green's functions and retarded potentials.
+
+4. Integral equations     (5 lectures)
+Classification: integral equations of the first and second kinds; Fredholm and Volterra equations.
+Simple cases: degenerate kernels; equations soluble by Fourier transform; problems reducible to a differential equation.  Neumann series solution (perturbation theory); Fredholm series (if time).  Eigenvalue problems; Hilbert-Schmidt theory. 
+
+5. Calculus of variations     (7 lectures)
+Functionals: stationary points and the Euler-Lagrange equation; the functional derivative. Fermat's principle. The brachistochrone.  Generalization to more functions and variables. Hamilton's principle. Constrained variational problems; Lagrange's undetermined multipliers. The isoperimetric problems. The catenary. The Rayleigh-Ritz method; application to quantum mechanics.  The completeness theorem for Hermitian Sturm-Liouville operators (if time)
+---
+

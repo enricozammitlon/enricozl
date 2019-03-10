@@ -31,6 +31,8 @@
   </div>
 
   <?php
+  require($_SERVER["DOCUMENT_ROOT"].'/recaptcha-master/src/autoload.php');
+
   if(isset($_POST['submit'])){
       $to = "enrico@enricozl.me"; // this is your Email address
       $from = $_POST['email']; // this is the sender's Email address
@@ -39,13 +41,22 @@
       $subject2 = "Copy of your form submission";
       $message = $first_name . " wrote the following:" . "\n\n" . $_POST['message'];
       $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+      $recaptchaSecret = '6LcCW4YUAAAAAL_HYXePYGQkfy3Jr3PEq0rLIfPK';
 
-      $headers = "From:" . $from;
-      $headers2 = "From:" . $to;
-      mail($to,$subject,$message,$headers);
-      mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-      echo "Cheers " . $first_name . "!";
+      $recaptcha = new \ReCaptcha\ReCaptcha($recaptchaSecret, new \ReCaptcha\RequestMethod\CurlPost());
+        // we validate the ReCaptcha field together with the user's IP address
+      $response = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
+      if (!$response->isSuccess()) {
+            throw new \Exception('ReCaptcha was not validated.');
+        }
+      else {
+        $headers = "From:" . $from;
+        $headers2 = "From:" . $to;
+        mail($to,$subject,$message,$headers);
+        mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+        echo "Cheers " . $first_name . "!";
       }
+    }
   ?>
   <div class="contact">
     <form id="contact-form" method="post">
@@ -65,7 +76,12 @@
       <p>
         <textarea name="message" id="your-message" placeholder="(your msg here)" class="expanding" required></textarea>
       </p>
-      <p>
+
+      <div class="g-recaptcha" data-sitekey="6LcCW4YUAAAAAOw3x-K0oCbgWqyBvl0BiT2W7dCN" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback">
+      </div>
+      <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha" style="height:0px;padding:0px;">
+      
+      <p style="margin-bottom: 0">
         <input type="submit" name="submit" value="Submit">
           <svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
             <path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
@@ -80,6 +96,12 @@
 
 </html>
 
+<script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous">
+</script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script type="text/javascript">
   document.getElementsByClassName("menu-toggle")[0].addEventListener("click", menuResponse);
   function menuResponse() {
@@ -87,11 +109,21 @@
     document.getElementById("menu-stuff").classList.toggle('hidden');
   }
 
+$(function () {
+  window.verifyRecaptchaCallback = function (response) {
+      $('input[data-recaptcha]').val(response).trigger('change')
+  }
+
+  window.expiredRecaptchaCallback = function () {
+      $('input[data-recaptcha]').val("").trigger('change')
+  }
+});
     // Auto resize input
 function resizeInput() {
     $(this).attr('size', $(this).val().length);
 }
 
+//To-Do : Change this to buffered keyup
 $('input[type="text"], input[type="email"]')
     // event handler
     .keyup(resizeInput)

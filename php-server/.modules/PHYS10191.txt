@@ -1,0 +1,56 @@
+CREDITS:10
+---
+LECTURER/S:Prof. A. Zijlstra & Prof. G. Fuller
+---
+PREREQ:A-level Physics
+---
+FOLLOWUP:PHYS10692 and Astrophysics options in later years
+---
+CLASSES:22 lectures in S1
+---
+ASSESMENT:Tutorial work and attendance (5%)
+Mid-semester test (10%)
+1 hour 30 minutes examination in January (85%)
+---
+AIMS:On completion successful students will be able to:
+1. Carry out calculations in using common astrophysical units;
+2. Describe and explain the physics of detectors and telescopes including geometric optics;
+3. Explain how astronomical distances are measured;
+4. Use the basic laws of physics to explain the global properties and basic evolution of stars;
+5. Derive Kepler’s Laws and apply them with Newton’s laws and theorems to a range of astrophysical
+objects including extrasolar planets;
+6. Describe the structure of the Milky Way and other galaxies;
+7. Describe the fundamental constituents of the Universe: baryons, dark matter and dark energy, and the
+observational evidence for their presence;
+8. Describe and explain the evolution of our Universe, including the evidence for the Big Bang.
+9. Use the equations which describe the evolution of the Universe to derive properties of the Universe.
+---
+TXTBOOKS:Recommended texts
+Carroll, B.W. & Ostlie, D.A., An Introduction to Modern Astrophysics (Pearson)
+This book covers considerably more material than covered in this module. This additional material will be
+valuable for future modules in astrophysics.
+Maoz, D, Astrophysics in a Nutshell, 2 nd edition (Princton University Press)
+Most of the topics in the course are covered in this book at the appropriate level, but a few topics are not
+covered.
+---
+SYLLABUS:1. The Universe and its physics: A tour of the Universe, its scale and contents; Gravity; Pressure; Radiation
+2. Observational astronomy: the electromagnetic spectrum; geometrical optics; resolving power, and the
+diffraction limit; telescopes and detectors; gravitational waves
+3. Distances: parallax measurements, standard candles
+4.
+Physics of the Sun and Stars: blackbody radiation, the Planck, Stefan-Boltzmann and Wien laws, effective
+temperature, interstellar reddening); hydrogen spectral lines and Doppler effect); Hertzprung-Russell
+diagram; Freefall and Kelvin-Helmholtz time; nuclear fusion; basic stellar structure (hydrostatic
+equilibrium, equation of state); white dwarfs, neutron stars, and black holes
+5.
+Planetary systems: Kepler's laws; Detection methods of extrasolar planets; search for life elsewhere;
+SETI.
+6.
+Galaxies: Star formation and the interstellar medium; stellar populations; galaxy rotation curves, mass
+and dark matter; Galaxy collisions; central engines
+7.
+Cosmology: Olber’s paradox, Hubble's Law; the age of the Universe; Evolution of the Universe: Madau
+diagram; Evidence for the Big Bang (blackbody radiation, nucleosynthesis); dark energy and the
+accelerating Universe.
+---
+

@@ -1,0 +1,66 @@
+CREDITS:10
+---
+LECTURER/S:Dr. Y. Xian
+---
+PREREQ:PHYS10071, PHYS10101, PHYS10302
+PHYS20171 is recommended as co-requisite
+---
+FOLLOWUP:PHYS20252, PHYS20352, PHYS30101, PHYS30201, PHYS40202
+---
+CLASSES:22 lectures in S3
+---
+ASSESMENT:Tutorial work and attendance (5%)
+1 hour 30 minutes examination in January (95%)
+---
+AIMS:On completion successful students will be able to:
+1. demonstrate an understanding of how quantum states are described by wave functions.
+2. demonstrate an understanding of the significance of operators and eigenvalue problems in quantum
+mechanics.
+3. solve the Schrödinger equation and describe the properties of the simple harmonic oscillator.
+4. demonstrate an understanding of angular momentum in quantum mechanics.
+5. demonstrate an understanding of how quantum mechanics can be used to describe the hydrogen atom.
+6. demonstrate an understanding of quantum mechanics in describing the properties of one-electron
+atoms.
+7.
+demonstrate an understanding of quantum mechanics in describing the simple multi-electron systems
+such as helium atom hydrogen molecule.
+---
+TXTBOOKS:Recommended texts
+Phillips, A.C. Introduction to Quantum Mechanics (Wiley)
+French, A.P. & Taylor, E.F. An Introduction to Quantum Physics (Thomas Nelson)
+For general background reading
+ed. Manners, J. Quantum Physics: an Introduction (IOP in association with the Open University)
+---
+SYLLABUS:1.
+Basic Elements of Quantum Mechanics
+(2 lectures)
+Time dependent Schrödinger equation and time evolution.
+2. Commutators and compatibility
+(2 lectures)
+Operators and quantum states, commutation relations and compatibility of different observables.
+3. The harmonic oscillator
+(2 lectures)
+Stationary states, energy levels of simple harmonic oscillator, vibrational states of a diatomic molecule.
+4. Orbital angular momentum
+(4 lectures)
+Particle in two dimensions (eigenfunctions and eigenvalues of Lz), particle in three dimensions
+(eigenfunctions and eigenvalues of L2 and Lz), rotational states of a diatomic molecule
+5. Particle in a central potential
+(2 lectures)
+Motion according to classical physics, quantum states with certain E, L2 and Lz and the radial time-
+independent Schrödinger equation, energy levels and eigenfunctions for the Coulomb potential.
+6. Hydrogen Atom
+(2 lectures)
+Energy levels, size and shape of energy eigenfunctions, effect of finite mass of nucleus, EM spectrum,
+hydrogen-like systems.
+7. One-electron atoms in more details
+(4 lectures)
+Electron spin, Sten-Gerlach experiment, magnetic moments, orbital and total angular momentum. Spin-
+orbit interaction, perturbation theory (1 st order). Zeeman effect. Parity, radiative transitions and selection
+rules.
+8. Multi-electron atoms
+(4 lectures)
+Wave functions of identical particles. Exchange symmetry. Pauli exclusion principle. Energy states of He
+atom. Hartree theory. X-ray spectra. Hund’s rules.
+---
+

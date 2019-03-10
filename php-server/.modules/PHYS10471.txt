@@ -1,0 +1,58 @@
+CREDITS:10
+---
+LECTURER/S:Prof. R. Jones
+---
+PREREQ:A-level Physics and A-level Mathematics
+---
+FOLLOWUP:Theoretical Physics units
+---
+CLASSES:22 lectures in S1
+---
+ASSESMENT:1 hour 30 minutes examination in January.
+---
+AIMS:On completion of the course, students will be able to:
+1. understand the fundamentals of probability theory.
+2. set up and solve models of physical processes involving randomness.
+3. understand the significance of the important probability distributions that are used by physicists.
+---
+TXTBOOKS:Recommended texts
+A suitable introduction to probability can be found in:
+Chapters 39 and 40 of Mathematical Techniques, 3rd edition, Jordan, D. & Smith, P.
+Chapters 20 & 21 of Mathematics for Engineers and Scientists, Weltner, K., Gorsjean, J., Schuster, P. & Weber,
+W.
+Chapter 3 of Statistics, Barlow, R.J.
+---
+SYLLABUS:1.
+Elements of probability
+(4 lectures)
+Introduction: What is probability?
+How to calculate probabilities: permutations and combinations
+Conditional probability
+2.
+Probability distributions
+(3 lectures)
+Discrete random variables; expectation value and variance
+Example: the geometric distribution
+Continuous random variables; the probability density function
+Examples: the uniform distribution; the normal (or Gaussian) distribution
+3.
+Exponential Probability Distribution
+(4 lectures)
+Probability of radioactive decay
+Probability of collisions in a gas; mean free path
+Generalisation: “hazard rate” and survival probability
+4.
+Poisson Probability Distribution
+(5 lectures)
+Probability of occurrence of n random events
+Properties of the Poisson distribution
+Gaussian limit of the Poisson distribution
+5.
+Binomial Probability Distribution
+(6 lectures)
+Binomial distribution for n trials
+Irreversible expansion of a gas
+Poisson and Gaussian limits of the binomial distribution
+Random walks and diffusion
+---
+

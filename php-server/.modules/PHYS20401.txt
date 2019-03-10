@@ -1,0 +1,66 @@
+CREDITS:10
+---
+LECTURER/S:Dr.T.Wyatt
+---
+PREREQ:PHYS10101, PHYS10302, PHYS10372
+---
+FOLLOWUP:PHYS30441, PHYS30201, PHYS40202, PHYS40771, PHYS40992
+---
+CLASSES:22 lectures in S3
+---
+ASSESMENT:1 hour 30 minutes examination in January
+---
+AIMS:On completion successful students will be able to:
+1.
+Choose an appropriate set of generalised coordinates to describe a dynamical system and obtain its
+Lagrangian in terms of those coordinates and the associated 'velocities'. Derive and solve the
+corresponding equations of motion. Treat small oscillations as an eigenvalue problem.
+2. Apply a variational principle to solve simple problems involving constraints.
+3. Appreciate symmetries and how they manifest themselves in terms of constants of the motion.
+4. Obtain generalised momenta and thus the Hamiltonian of a dynamical system. Derive and solve
+the equations of motion in Hamiltonian form.
+---
+TXTBOOKS:Recommended texts
+Kibble, T.W.B. & Berkshire, F.H. Classical Mechanics, 5th edition (Longman)
+Goldstein, H., Poole, C. & Safko, J. Classical Mechanics, 3rd edition (Addison-Wesley)
+Landau, L.D. and Lifshiftz, E.M. Mechanics, 3 rd edition (Pergamon Press)
+---
+SYLLABUS:1.
+Introduction
+Review of Newtonian mechanics: internal forces, external forces, forces of constraint. Rotational
+problems and polar coordinates.
+Conservation laws and conservative systems.
+Partial derivatives.
+2.
+Lagrangian Dynamics
+The energy method plus other conservation laws.
+The Lagrangian and Lagrange’s equation.
+Small oscillations and normal modes.
+3.
+Calculus of Variations
+Functional minimization.
+The Euler-Lagrange equations.
+Constrained variation.
+Hamilton’s principle of least action.
+Lagrangian dynamics.
+4.
+The Hamiltonian Formalism
+Legendre transformations.
+Generalized momenta, the Hamiltonian and Hamilton's equations.
+Phase space. Liouville’s theorem
+5.
+Symmetries and Conservation Laws
+Generators of transformations.
+Poisson brackets.
+Symmetries of the Lagrangian produce constants of motion. Noether’s theorem.
+6.
+Normal Modes from Matrices
+Normal modes from symmetries.
+Review of mathematics of matrices: eigenvalues and eigenvectors.
+Diagonalizing a matrix using its eigenvectors.
+Small oscillations as eigenvalue problems.
+10. Special Topics
+Lagrangian for charged particle moving in electric and magnetic fields.
+Continuous systems: the Lagrangian Density.
+---
+

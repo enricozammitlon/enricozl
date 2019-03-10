@@ -1,0 +1,36 @@
+CREDITS:10
+---
+LECTURER/S:Prof.N.Ray
+---
+PREREQ:A good understanding of a foundational course, such as either version of Sets, Numbers and Functions is strongly recommended.
+---
+FOLLOWUP:N/A
+---
+CLASSES:Lectures 	22
+Tutorials 	11
+Independent study hours 	67
+---
+ASSESMENT:
+    Coursework; Weighting within unit 20%
+    2 hours end of semester examination; Weighting within unit 80%
+---
+AIMS:
+On completion of this unit successful students will be able to:  
+
+    Define several standard examples of metric spaces and prove simple results related to them.
+    Determine whether a given metric space has any of the following properties: openness, closedness, completeness, compactness, path connectedness.
+    Prove simple results related to all of the above notions, as well as that of continuity.
+    State and prove the contraction mapping theorem along with some of its applications.
+---
+TXTBOOKS:Two books are particularly relevant. The first is Wilson A. Sutherland, Introduction to Metric and Topological Spaces, Oxford University Press (Second Edition) 2009
+which contains almost all the material in the course, is beautifully written, and is highly recommended. Copies are available to purchase in Blackwells, and to borrow from the JRUL. For an alternative view, try Micheal O'Searcoid, Metric Spaces, Springer 2006.
+---
+SYLLABUS:
+1.Basic Definitions. Euclidean metric, taxicab metric, discrete metric, edge metric, word metric, sup metric, L1 metric, Hausdorff metric, l2 metric, product metrics. Examples. [4 lectures]
+2.Open and Closed Sets. Interior, closure, sequences and convergence, boundary. Denseness. Equivalent metrics. Examples. [4]
+3.Uniform Convergence. Sequences of continuous functions. Examples. [2]
+4.Continuous maps. Extending the elementary definition. Relationship with open sets, sequences. Examples [4]
+5.Compactness. Open coverings. Continuous maps on compact sets. Compactness in Euclidean space. [4]
+6.Completeness. Cauchy sequences. The Contraction Mapping Theorem, Examples. [3]
+---
+

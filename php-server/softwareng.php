@@ -15,7 +15,7 @@
     <div class="Menu">
       <p><a href="/index.php">Homepage</a> <a href="/physics.php">Physics</a> <a href="/contact.php">Contact</a></p>
     </div>
-    <h1>Computers & I</h1>
+    <h1>Software</h1>
     <p>
       Below are some of the projects/hackathons I have participated in and languages & framweorks I have
       had some experience in. For more projects check out my <a target="_blank" href="https://github.com/enricozammitlon">Github!</a>

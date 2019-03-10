@@ -22,7 +22,7 @@ body{
   display:flex;
   flex-direction: column;
   background-image: url("/img/fulls/04.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
 }
 
@@ -158,6 +158,97 @@ ul.default {
       font-size: 6em;
     }
 
+.grid .left {
+  width: 223px;
+  float: left;
+  min-height: 100vh;
+  border-right: 1px solid #dbdbdb;
+}
+.grid .right {
+/*  width: 80%;
+  float: right;*/
+}
+
+.content {
+  margin: 30px auto;
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.top-tabs .tab {
+  float: left;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+  width: 25.33%;
+  padding: 7px 20px;
+  background: rgba(255, 255, 255, 0.6);
+  opacity: 0.6;
+  font-weight: 500;
+  font-size: 16px;
+  border-top: 1px solid #dbdbdb;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+  transition: opacity 0.2s linear;
+  transform-origin: 0% 0%;
+}
+.top-tabs .tab:first-child {
+  margin-left: 0;
+}
+.top-tabs .tab:hover {
+  background: rgba(255, 255, 255, 0.8);
+  opacity: 1;
+}
+.top-tabs .tab.active {
+  background: white;
+  position: relative;
+  opacity: 1;
+  box-shadow: 0px -6px 8px 0px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+  z-index: 1;
+  border-left: 0;
+  border-right: 0;
+}
+
+.tab-content {
+/*  min-height: 70vh;
+*/  box-shadow: 0px -2px 4px 2px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.tab-content .list-inline {
+  border-bottom: 1px solid #dbdbdb;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -20px;
+}
+.tab-content .list-inline li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 9px 20px;
+}
+.tab-content .list-inline li {
+  padding: 10px 5px;
+  font-weight: 500;
+  color: currentcolor;
+  text-decoration: none;
+}
+.tab-content .list-inline li:hover {
+  border-bottom: 3px solid white;
+  text-decoration: none;
+}
+.tab-content .list-inline li.active {
+  border-bottom: 3px solid #03A9F4;
+  text-decoration: none;
+}
+
+#result {
+  overflow: auto;
+  max-height: 300px;
+  margin-top: 10px;
+}
 
 /* 
   This is mobile optimizations

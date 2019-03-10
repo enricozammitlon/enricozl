@@ -1,0 +1,27 @@
+CREDITS:10
+---
+LECTURER/S:Lab Tutor: Dr. P. Walmsley
+---
+PREREQ:First Year Physics Core, PHYS10180/10280 or equivalent.
+---
+FOLLOWUP:PHYS30180 / PHYS30280
+---
+CLASSES:One day per week on either Tuesday or Friday throughout the session.
+Laboratory times are 10.00-5.00.
+There may be reduced supervision over the lunch break, 1.00-2.00.
+---
+ASSESMENT:N/A
+---
+AIMS:Student performance on each experiment is assessed by the demonstrator/supervisor during the course of the
+experiment and by a final interview. Assessment takes into account: physics understanding, experimental skill
+and results, quality of data analysis, error analysis and final results, innovation, commitment, planning and
+quality of notes in Laboratory Notebook. For some of the experiments the interview includes a short oral
+presentation.
+The relative weights are: each 2-day experiment (20), each 3-day experiment (30), each 4-day experiment (40),
+Laboratory reports (20, 20, 30, 30).
+---
+TXTBOOKS:N/A
+---
+SYLLABUS:Depends on experiment.
+---
+

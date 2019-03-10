@@ -29,13 +29,18 @@ input {
   padding: 1rem;
   border: 2px dashed rgba(255, 255, 255, 0);
   box-sizing: border-box;
-  cursor: text;
+  cursor: pointer;
+}
+
+.g-recaptcha {
+  display: flex;
+  justify-content: center;
 }
 
 textarea {
   text-align: left;
   /* overflow:hidden; */
-  
+  font-size: 19px;
   resize: none;
   width: 90%;
   border-color: rgba(255, 255, 255, 0)
@@ -152,3 +157,13 @@ small {
 .website a {
   color: white;
 }
+
+.contact {
+  margin-top: 70px;
+}
+
+@media only screen and (max-width:400px) {
+textarea {
+  font-size:14px;
+}
+} 

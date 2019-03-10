@@ -1,0 +1,40 @@
+CREDITS:10
+---
+LECTURER/S:Prof.R. Banach
+---
+PREREQ:Be comfortable with linear algebra
+---
+FOLLOWUP:None
+---
+CLASSES:18 lectures in S6.
+---
+ASSESMENT:1 hour 30 minutes examination in January.
+---
+AIMS:On completion successful students will be able to:
+1.Be familiar with linear algebra and basic quantum mechanics.
+2. Be familiar with qubits and basic quantum gates.
+3. Have a knowledge of standard quantum algorithms.
+4. Be able to design simple quantum algorithms.
+---
+TXTBOOKS:Recommended texts
+Quantum computing for computer scientists	Yanofsky, Noson S. and Mirco A. Mannucci	9780521879965	Cambridge University Press	2008
+Quantum computation and quantum information	Nielsen, Michael A. and Isaac L. Chuang	0521635039	Cambridge University Press	2000
+---
+SYLLABUS:
+State Transition Systems. Nondeterministic Transition Systems, Stochastic Transition Systems, and Quantum Transition Systems. The key issues: Exponentiality, Destructive Interference, Measurement. (1)
+
+Review of Linear Algebra. Complex Inner Product Spaces. Eigenvalues and Eigenvectors, Diagonalisation. Tensor Products. (3)
+
+Pure Quantum Mechanics. Quantum states. Unitary Evolution. Observables, Operators and Commutativity. Measurement. Simple Systems. The No-Cloning theorem. The Qubit. (3)
+
+Entanglement. Schrodinger's cat. EPR states. Bell and CHSH Inequalities. The GHZ Argument. Basis copying versus cloning. (1)
+
+Basic quantum gates. Simple quantum algorithms. Quantum Teleportation. (3)
+
+Examples Class (1)
+
+Quantum Search (Grover's Algorithm). Quantum Fourier Transform. Phase estimation. Quantum Counting. (5)
+
+Quantum Order Finding. Continued Fractions. Quantum Factoring (Shor's Algorithm). (3)
+---
+
