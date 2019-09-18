@@ -1,0 +1,70 @@
+CREDITS:10
+---
+LECTURER/S:Dr. J. A. McGovern
+---
+PREREQ:PHYS20101, PHYS20672 or MATH10212
+PHYS20252 is recommended but not essential.
+---
+FOLLOWUP:PHYS40202 and fourth year courses
+---
+CLASSES:22 lectures in S5
+---
+ASSESMENT:1 hour 30 minutes examination in January
+---
+AIMS:On completion of the course, successful students should be able to:
+1.
+Use Dirac notation to represent quantum-mechanical states and manipulate operators in terms
+of their matrix elements
+2.
+Understand the mathematical underpinnings of quantum mechanics and solve a variety of
+problems with model and more realistic Hamiltonians
+3.
+Demonstrate familiarity with angular momentum in quantum mechanics at both a qualitative
+and quantitative level
+4. Use perturbation theory and other methods to find approximate solutions to problems in
+quantum mechanics, including the fine-structure of energy levels of hydrogen
+---
+TXTBOOKS:ecommended texts
+Shankar, R. Principles of Quantum Mechanics 2nd ed. (Plenum 1994)
+Gasiorowicz, S. Quantum Physics, 3 rd ed. (Wiley, 2003)
+Mandl, F. Quantum Mechanics (Wiley, 1992)
+Griffths, D. J. Introduction to Quantum Mechanics, 2 nd ed (CUP, 2017)
+---
+SYLLABUS:1.
+Quantum mechanics and vector spaces
+(9 lectures)
+Review of vector spaces
+Postulates of quantum mechanics
+x and p operators and momentum-space wave functions
+Time evolution: the Schrődinger equation
+Stern-Gerlach experiments
+Example: Spin precession
+Ehrenfest’s theorem and the classical limit
+The simple harmonic oscillator: creation and annihilation operators
+WKB approximation
+Variational methods
+Composite systems and entanglement
+2.
+Angular Momentum
+(7 lectures)
+Angular momentum commutators
+Eigenvalues and eigenstates of angular momentum
+Orbital angular momentum vs spin
+Pauli spin matrices
+Example: Magnetic resonance
+Addition of angular momentum
+Clebsch-Gordan coefficients
+The Wigner-Eckhart theorem
+2.
+Time independent perturbation theory
+(5 lectures)
+Examples of perturbation theory
+The fine structure of hydrogen
+The Zeeman Effect: hydrogen in an external magnetic field
+The Stark effect: hydrogen in an external electric field
+3.
+Quantum measurement
+(1 lecture)
+The Einstein-Podolsky-Rosen “paradox” and Bell’s inequalities
+---
+

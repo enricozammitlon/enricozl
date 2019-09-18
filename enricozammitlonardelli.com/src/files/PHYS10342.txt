@@ -1,0 +1,59 @@
+CREDITS:10
+---
+LECTURER/S:Dr. M. Hughes
+---
+PREREQ:A-level Physics, PHYS10071
+---
+FOLLOWUP:PHYS20141, PHYS30141, PHYS30441
+---
+CLASSES:24 lectures plus workshops in S2
+---
+ASSESMENT:Tutorial work and attendance (5%)
+1 hour 30 minutes examination in May/June (95%)
+---
+AIMS:On completion successful students will be able to:
+1. describe the electric field and potential, and related concepts, for stationary charges.
+2. calculate electrostatic properties of simple charge distributions using Coulomb’s law,
+Gauss’s law and electric potential.
+3.
+describe the magnetic field for steady currents and moving charges.
+4. calculate magnetic properties of simple current distributions using Biot-Savart and Ampere’s laws.
+5. describe electromagnetic induction and related concepts, and make calculations using
+Faraday and Lenz’s laws.
+6.
+describe the basic physical content of Maxwell’s laws in integral form.
+---
+TXTBOOKS:Recommended texts
+Grant, I. S. & Phillips, W. R. Elements of Physics (OUP)
+Halliday, Resnick, Walker, Fundamentals of Physics (Wiley)
+Tipler, P. A., Physics for Scientists and Engineers (Freeman)
+Young, H. D. & Freedman, R. A. University Physics (Addison-Wesley)
+Supplementary and Further Reading (See comments in lectures)
+Dobbs, E. R. Basic Electromagnetism (Chapman-Hall)
+Duffin, W. J. Electricity and Magnetism (McGraw-Hill)
+Feynman, Lectures in Physics Volume 11
+Grant, I. S. & Phillips, W. R. Electromagnetism (Wiley)
+Griffiths, D. J. Introduction to Electrodynamics (Wiley)
+Kip, A. F. Fundamentals of Electricity and Magnetism (McGraw Hill)
+Schey, H. M. Div, Grad, Curl and All That (Norton)
+---
+SYLLABUS:
+1.
+Introduction
+Forces in nature; electric charge and its properties; vectors, fields, flux and circulation.
+2.
+Electric Fields and Stationary Charges
+Coulomb’s law and superposition; electric field and potential; capacitance; electric dipoles; energy in
+electric fields.
+3.
+Magnetic Fields and Steady Currents
+Magnetic fields; Lorentz force; Biot-Savart and Ampère’s laws; magnetic dipoles.
+4.
+Electrodynamics
+Electromotive force; electromagnetic induction; Faraday and Lenz’s laws; inductance; energy in magnetic
+fields.
+5.
+Maxwell’s Equations
+Maxwell’s fix of Ampère’s law; Maxwell’s equations in integral form.
+---
+

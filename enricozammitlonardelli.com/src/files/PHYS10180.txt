@@ -1,0 +1,24 @@
+CREDITS:10
+---
+LECTURER/S:Lab Tutor: Dr. M. Lloyd
+---
+PREREQ:A-level Physics, A-level Mathematics
+---
+FOLLOWUP:PHYS20180 / PHYS20280 Second Year Laboratory
+---
+CLASSES:One day per week throughout the session on either Monday or Thursday. Laboratory times are 11.00-1.00 and
+2.00-5.00. Attendance is obligatory.
+See also PHYS10181F: Special Topics, which is formally part of First Year Laboratory but is taught and assessed
+separately from the rest of the First Year Laboratory programme.
+---
+ASSESMENT:3 experiments (40% in total),2 lab reports (20% in total),Data Analysis (20%),Special Topics (20%)
+---
+AIMS:N/A
+---
+TXTBOOKS:There are no specific textbooks for First Year Lab. The main first year textbook, Young & Freedman’s University
+Physics, is likely to be useful for understanding the physics behind most of the experiments. Students should
+also read through the pre-lab material for their experiments on Blackboard before the start of each lab block.
+---
+SYLLABUS:N/A
+---
+

@@ -1,0 +1,83 @@
+CREDITS:10
+---
+LECTURER/S:Prof. N. Walet & Dr. J. Evans
+---
+PREREQ:A-level Physics and A-level Mathematics
+---
+FOLLOWUP:PHYS10672, PHYS20401
+---
+CLASSES:22 lectures plus 11 workshop sessions in S1
+---
+ASSESMENT:15% for 11 on-line assignments: 1.5% per week on a pass/fail basis (required score for
+pass is 2/3rds of average mark for the assignment with a minimum of 40%), capped at
+a total of 15%. Mid-semester test (10%)
+1 hour 30 minutes examination in January (75%)
+---
+AIMS:On completion successful students will be able to explain the role of, and solve problems involving, the
+following concepts:
+1. frame of reference and its associated coordinate systems.
+2. Newton's laws and the motion of simple systems.
+3. energy, work, power, momentum, force, impulse, angular velocity, angular acceleration and torque.
+64.
+conservation of energy, momentum, and angular momentum.
+Furthermore, they will be able to solve problems involving:
+5. the rotation of rigid bodies.
+6. motion in a gravitational field.
+---
+TXTBOOKS:Compulsory Text book
+Young, H.D. & Freedman, R.A. University Physics (Addison-Wesley)
+Recommended texts
+Forshaw, J.R. & Smith, A.G. Dynamics & Relativity (Wiley)
+French, A.P. Newtonian Mechanics (Norton)
+Halliday, D., Resnick, R. & Walker, J. Fundamentals of Physics (Wiley)
+Kleppner, D. & Kolenkow, R. An Introduction to Mechanics (McGraw-Hill)
+Tipler, P.A., Physics for Scientists and Engineers (W.H. Freeman and company)
+---
+SYLLABUS:1.
+Linear Dynamics I
+Differentiation of vectors, velocity and acceleration.
+Inertial frames and Newton I.
+2.
+Linear Dynamics II
+Newton II.
+Equations of motion.
+Impulse.
+Forces.
+Action at a distance.
+3.
+Linear Dynamics III
+Momentum conservation and Newton III.
+Applications of Newtonian mechanics.
+4.
+Linear Dynamics IV
+Conservation principles in physics.
+Kinetic energy and work.
+Potential energy.
+Conservative forces.
+5.
+Rotational Motion I
+Torque, vector product, rotation of coordinate axes and angular momentum.
+Polar coordinates.
+6.
+Conservation laws and isolated systems
+Conservation of linear momentum.
+Internal forces for a collection of particles.
+Centre of mass.
+7.
+Angular momentum
+Angular momentum and Newton II.
+Conservation of angular momentum.
+78.
+Rotational motion II
+Equation of motion; kinetic energy, angular momentum, moments of inertia, gyroscopes and precession.
+9.
+Gravitation
+Newton’s Law of Gravitation
+Kepler’s Laws of Planetary Motion
+Gravitational Potential Energy
+Escape velocity
+Satellites
+Spherical mass distributions
+Tidal forces
+---
+
