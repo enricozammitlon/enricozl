@@ -11,7 +11,27 @@ export default class Software extends Component {
 			<h1>Tech</h1>
 			<p>
 			  Below are some of the projects/hackathons I have participated in and languages & framweorks I have
-			  had some experience in. For more projects check out my <a target="_blank" href="https://github.com/enricozammitlon">Github!</a>
+			  had some experience in. There are also the projects I am currently interested in and the ones I plan to tackle soon.For more projects check out my <a target="_blank" href="https://github.com/enricozammitlon">Github!</a>
+			</p>
+
+			<h3>This Website</h3>
+			<p>This particular website has been a personal project running since December 2017. It has been an incredible learning experience because of the 
+			  amount of technologies that I have used over the years.<br></br>
+			  I have rewritten this website so many times it has become my little baby. Originally it used to be a python Flask server running on a Lenovo T61 Laptop (that I bought from ebay for 25 euros) connected at my house - I know! 
+			  Then, one rainy day, this computer died and I was pretty sad since I had been very dumb and took no backups. However I took the opportunity to remake everything, put it on a github repo and this time rent out a DigitalOcean droplet.
+			  The droplet had 1GB RAM and 25GB hard disk and installed Debian Stretch on it.
+			  As of this time, each branch of the repo holds a different implementation of the website - with a few different themes throughout.<br></br> 
+			  Tired of paying $5 and more for the hell of it, I have changed architecture again and now host this via Netlify on a React.js frontend while also wanting to experiment with Firebase so I converted the logic to get my university modules information
+			  to an API hosted on a serverless stack with the Google cloud suite. It was really fun and I'm happy to see it working! .<br></br> 
+			  The three versions I have created are implementations in Python+Flask+WSGI & Apache, PHP on LAMP and React.js+Netlify+Git CI/CD+Firebase API. <br></br>
+
+			<b>Languages</b> used were <strong> HTML, JS, PHP, SQL, Typsecript, YAML, Python, Bash </strong> and <b> technologies</b> used were <strong>Linux Architecture, Apache, Nginx, Nameservers, Mailserver, Webserver, Netlify, React.js, Node.js, XAMPP</strong>.<br></br>
+			Project (will be) available on <a target="_blank" href="https://github.com/enricozammitlon/enricozl"> Github </a> 😁 .
+			</p>
+
+			<h3>VoIP on Raspberry Pi-Coming Soon</h3>
+			<p>This project I am very excited about. Do checkout my blog as I plan to publish it there soon but for now the gist is I want to setup an encrypted VoIP server running on a Raspberry v4. So many things to try out I can't wait.
+			This also stems out of a conversation I had at 44con but for that checkout my blogpost!
 			</p>
 
 			<h3>HackCity18</h3>
@@ -28,24 +48,14 @@ export default class Software extends Component {
 			<b>Languages</b> used were <strong> Java</strong>.<br></br>
 			Project available on <a target="_blank" href="https://github.com/enricozammitlon/KingMe"> Github </a>
 			</p>
+			{/*}
+			<h3>Superhero Science Project</h3>
+			<p> What started out as a simple website as favour to a journalist friend of mine has changed into one of my most intense and largest projects I currently have going on.
 
-			<h3>ETA</h3>
-			<p>This was a small personal,project I made for my father. It is a web application to track items via a database and be able to carry out 
-			basic operations like deletion,addition and updating of items.<br></br> It has inbuilt multiuser,multiadmin capabilities and has additional functionalities such as adding fields like images and documents. This project is not complete but requires quite a bit of polishing and security increase.<br></br>
-			It was particularly fun to carry out this project due to it being a rather full-stack experience. 
 			<b>Languages</b> used were <strong> HTML,JS,PHP,SQL </strong> and <b> technologies</b> used were <strong>MariaDB Database,Herokuapp</strong>.<br></br>
 			Project available on <a target="_blank" href="https://github.com/enricozammitlon/eta"> Github </a>
 			</p>
-
-			<h3>This Website</h3>
-			<p>This particular website has been a personal project running since December 2017. It has been an incredible learning experience because of the 
-			  amount of technologies that I needed to use.<br></br> First of all I rented a droplet on DigitalOcean for a simple 1GB RAM and 25GB hard disk and installed Debian Stretch on it. Currently, there are 3 versions running of this website (2 on idle and 1 active at any time) which are implementations in Python+Flask+WSGI & Apache, PHP on LAMP and Vue.js+Nuxt.js+Nginx. <br></br>Currently, this is the PHP version running. 
-			  <br></br>There is also a mail server running which required tinkering around with Apache configuration , nameservers and virtual hosts but it was a
-			  very rewarding experience and now I have my own <a href="mailto:enrico@enricozl.me">Email!</a> <br></br>
-			<b>Languages</b> used were <strong> HTML, JS, PHP, SQL, Python, Bash </strong> and <b> technologies</b> used were <strong>Linux Architecture, Apache, Nginx, Nameservers, Mailserver, Webserver, Fileserver, Vue.js, Node.js, Nuxt.js</strong>.<br></br>
-			Project (will be) available on <a target="_blank" href="https://github.com/enricozammitlon/enricozl"> Github </a> 😁 .
-			</p>
-
+			{*/}
 		</div>
 		)
 	}

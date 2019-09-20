@@ -49,6 +49,7 @@ class App extends Component {
             <NavLink to="/physics">physics</NavLink>
             <NavLink to="/software">tech</NavLink>
             <a target='_blank' href="https://blog.ezl.me">blog</a>
+            <a target='_blank' href="CV_Enrico_Zammit_Lonardelli.pdf">resume</a>
             <NavLink to="/contact">contact</NavLink>
             <a href="https://www.linkedin.com/in/enrico-zammit-lonardelli/" className="fa icon alt fa-linkedin"></a>
             <a href="https://github.com/enricozammitlon" className="fa icon alt fa-github"></a>
