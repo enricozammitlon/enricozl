@@ -44,8 +44,8 @@ export default class Home extends Component {
 			<div className="middle-circle">
 				<h1 className="giant">Hey!</h1>
 				<p className="large">I'm <strong>Enrico.</strong> In short: I love creating, unpacking, analysing and tinkering with any technologies and devices. This website is 
-				the epitomy of all that and also where I tend to show off whatever I find interesting at the time. Since I am a physicist by nature but software engineer by passion then you will find projects
-				and information about both in their respective pages. Please let me know if you find any bugs and if you want to reach out or work on something, please do contact me!
+				the epitome of all that and also where I tend to show off whatever I find interesting at the time. I am a physicist by nature but I am passionate about computers so you will find projects
+				and information my work in both fields in their respective pages. Please let me know if you find any bugs and if you want to reach out or work on something, please do contact me!
 				</p>
 				<div className="inline-div"><p className="large">I'm interested in</p> <p className="large" id="passions">{this.state.passion}</p></div>
 
