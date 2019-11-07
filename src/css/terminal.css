@@ -1,0 +1,26 @@
+.history li {
+	list-style-type: "[guest]:$ ";
+	list-style-position: inside;
+}
+
+.currentCommand li {
+	list-style-type: "[guest]:$ ";
+	list-style-position: inside;
+}
+
+.currentCommand input {
+	background-color:
+	transparent;
+	color:white;
+	border-style: none;
+	text-shadow: 0rem 0.2rem 1rem #0c7b46;
+	font-family: 'VT323';
+	font-size: 24px;
+	line-height: 1.2;
+	text-align: left;
+	width: 50%;
+}
+.terminal {
+	max-height:200px;
+	overflow: auto;
+}
