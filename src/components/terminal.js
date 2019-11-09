@@ -5,7 +5,7 @@ export default class Terminal extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      history: [],
+      history: ["Chatbot says: \"Hi! I'm a chatbot here to answer any questions you might have about Enrico.\""],
       currentCommand: ""
     };
     this.handleChange = this.handleChange.bind(this);
@@ -43,7 +43,11 @@ export default class Terminal extends Component {
           if (this.readyState == 4 && this.status == 200) {
             // document.getElementById("result").innerHTML=this.responseText;
             var result=JSON.parse(this.responseText)
-            history.push(result)
+            history.push("Chatbot says: \""+result+"\"")
+            if(history.length>5){
+              history.splice(0, 2);
+            }
+
             oldThis.setState({
               history: history,
               currentCommand:""

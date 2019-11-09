@@ -44,13 +44,11 @@ export default class Home extends Component {
 
 			<div className="middle-circle">
 				<h1 className="giant">Hey!</h1>
-				{/*}
-        <p className="large">I'm <strong>Enrico.</strong> In short: I love creating, unpacking, analysing and tinkering with any technologies and devices. This website is 
-				the epitome of all that and also where I tend to show off whatever I find interesting at the time. I am a physicist by nature but I am passionate about computers so you will find projects
-				and information about my work in both fields in their respective pages. Please let me know if you find any bugs and if you want to reach out or work on something, please do contact me!
-				</p>*/}
+        <p className="large">I'm <strong>Enrico.</strong> In short: I love creating, unpacking, analysing and tinkering with any technologies and devices. Make sure to ask the chatbot below questions about me if you want to find out more.
+        Please let me know if you find any bugs and if you want to reach out or work on something, please do contact me!
+				</p>
         <Terminal />
-				<div className="inline-div"><p className="large">I'm interested in</p> <p className="large" id="passions">{this.state.passion}</p></div>
+				{/*<div className="inline-div"><p className="large">I'm interested in</p> <p className="large" id="passions">{this.state.passion}</p></div>*/}
 
 			</div>
 		</div>
