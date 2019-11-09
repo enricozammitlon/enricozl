@@ -66,6 +66,9 @@ export default class Terminal extends Component {
         
         xmlhttp.open("POST", "https://us-central1-personal-chatbot-793a5.cloudfunctions.net/chat", true);
         var myMessage = {"message":this.state.currentCommand};
+        if(this.state.currentCommand==""){
+          myMessage={"message":"Empty"}
+        }
         var blob = new Blob([JSON.stringify(myMessage, null, 2)], {type : 'application/json'});
         xmlhttp.send(blob);
     }
