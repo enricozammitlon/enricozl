@@ -11,7 +11,7 @@ export default class Software extends Component {
 				<h1>Tech</h1>
 				<p>
 					Below are some of the projects/hackathons I have participated in and languages & framweorks I have
-			  had some experience in. There are also the projects I am currently interested in and the ones I plan to tackle soon.For more projects check out my <a target="_blank" href="https://github.com/enricozammitlon">Github!</a>
+			  had some experience in. There are also the projects I am currently interested in and the ones I plan to tackle soon.For more projects check out my <a target="_blank" rel="noopener noreferrer" href="https://github.com/enricozammitlon">Github!</a>
 				</p>
 
 				<h3>This Website</h3>
