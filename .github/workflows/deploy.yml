@@ -41,7 +41,7 @@ jobs:
       - uses: actions/checkout@master
 
       - name: build
-        run: docker build --target analysis --cache-from enricozl/webstie:latest --pull -t enricozl/website:latest .
+        run: docker build --cache-from enricozl/webstie:latest --pull -t enricozl/website:latest .
 
       - name: push
         run: docker push enricozl/website:latest
