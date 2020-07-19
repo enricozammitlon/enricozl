@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  web:
+    build:
+      context: .
+    image: registry.gitlab.com/superhero-science/frontend/frontend-student:latest
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - '8080:80'
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - web
