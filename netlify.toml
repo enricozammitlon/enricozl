@@ -1,3 +1,8 @@
+# Production context: All deploys to the main
+# repository branch will inherit these settings.
+[context.production]
+  command = "REACT_APP_ENV=prod npm run build"
+
 # Always redirect any request to our index.html
 # and return the status code 200.
 [[redirects]]
