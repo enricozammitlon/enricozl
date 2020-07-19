@@ -1,0 +1,69 @@
+CREDITS:10
+---
+LECTURER/S:Prof. A. Juel
+---
+PREREQ:PHYS10101, PHYS10302, PHYS10372, PHYS20171
+---
+FOLLOWUP:None
+---
+CLASSES:22 lectures in S5.
+---
+ASSESMENT:1 hour 30 minutes examination in January.
+---
+AIMS:On completion successful students will be able to:
+1.
+explore the basic concepts of nonlinear dynamics using the 'simple' pendulum and adaptations
+of it.
+2. analyse simple one and two-dimensional nonlinear systems.
+3. identify attractors of those nonlinear systems, and to characterise their stability.
+4. understand and apply the basic numerical methods relevant for nonlinear systems.
+5.
+demonstrate an understanding of what constitutes chaotic behaviour and explain why this
+imposes limits on predictability.
+6. survey applications of the ideas in several areas of physics, and in other disciplines
+7. describe the concept of a fractal and explain the idea of a non-integer dimension.
+---
+TXTBOOKS:Recommended texts
+Strogatz, S.H. Nonlinear Dynamics and Chaos, (Addison Wesley 1994).
+Useful references
+Baker, G.L. & Gollub, J.P. Chaotic Dynamics: An Introduction, (CUP 1996),
+Second edition
+Jordan, D.W. & Smith, P. Nonlinear Ordinary Differential Equations, (OUP 1999), Third edition
+Supplementary reading
+Gleick, J. Chaos: Making a New Science, (Heinmann 1998)
+Stewart, I. Does God play Dice? The Mathematics of Chaos, (Penguin 1990)
+---
+SYLLABUS:1.
+Introduction - overview of the course introducing some of the basic ideas.
+(1 lecture)
+General introduction and motivation; examples of linearity and nonlinearity in physics and the
+other sciences; modelling systems using iterated maps or differential equations.
+2.
+General features of dynamical systems - the structures that may arise in the analysis of
+ordinary differential equations.
+(10 lectures)
+Systems of differential equations with examples; control parameters; fixed points and their
+stability; phase space; linear stability analysis; numerical methods for nonlinear systems;
+properties of limit cycles; nonlinear oscillators and their applications; the impossibility of chaos
+in the phase plane; bifurcations: their classification and physical examples; spatial systems,
+pattern formation and the Turing mechanism; strange attractors and chaotic behaviour.
+3.
+The logistic map - period doubling and chaos in a simple iterated map.
+(4 lectures)
+Linear and quadratic maps; graphical analysis of the logistic map; linear stability analysis and
+the existence of 2-cycles; numerical analysis of the logistic map; universality and the
+Feigenbaum numbers; chaotic behaviour and the determination of the Lyapunov exponent;
+other examples of iterated maps.
+4.
+Fractals - complex geometrical objects of which strange attractors are examples.
+(4 lectures)
+How long is the coastline of Britain? Artificial fractals: the Cantor set and von Koch curve; fractal
+dimensions; iterations of the complex plane and the Mandelbrot set; how fractals arise in the
+description of dynamical systems.
+5.
+Further aspects of chaotic dynamics - exploring the basic ingredients of chaos.
+(3 lectures)
+Fractal structures in simple maps; how strange attractors come about; the evolution of phase
+space volumes in chaotic and non-chaotic systems; mixing and information entropy.
+---
+

@@ -1,0 +1,73 @@
+CREDITS:10
+---
+LECTURER/S:Dr. P. Campbell
+---
+PREREQ:PHYS10071, PHYS10342, PHYS10372
+---
+FOLLOWUP:PHYS20312, PHYS30141, PHYS30441
+---
+CLASSES:22 lectures in S3
+---
+ASSESMENT:Tutorial work and attendance (5%)
+1 hour 30 minutes examination in January (95%)
+---
+AIMS:On completion successful students will be able to:
+1.
+know and demonstrate an understanding of Maxwell's equations and their derivation from the
+empirical laws of electromagnetism.
+2.
+use the fundamental laws of electromagnetism to solve simple problems of electrostatics, magnetostatics
+and electromagnetic induction in a vacuum.
+3.
+understand how to formulate Maxwells laws in the presence of simple materials and solve simple
+problems involving them.
+434.
+know and understand the electromagnetic boundary conditions which apply at the interface between
+two simple media, and to use them to solve simple problems.
+5.
+demonstrate understanding of the properties of plane electromagnetic waves in a vacuum and in simple
+media and to be able to derive these properties from Maxwell's equations.
+---
+TXTBOOKS:Recommended texts
+Grant, I.S. & Phillips, W.R. Electromagnetism (2nd ed.) (Wiley)
+Useful references
+Bleaney, B.I. & Bleaney B. Electricity & Magnetism (3 rd ed.) (Oxford Uni. Press)
+Lorrain & Corson, Electromagnetic Fields and Waves (3 rd ed.) (W.H. Freeman & Co.)
+Duffin, W.J. Electricity and Magnetism (4 th ed.) (Duffin, previous eds. McGraw-Hill)
+Jackson, J.D. Classical Electrodynamics (3 rd ed.) (Wiley)
+---
+SYLLABUS:1.
+Mathematical Preliminaries
+(2 lectures)
+Revision of Vector Calculus; Dirac δ-function and point particles; Laplace’s & Poisson’s equations and their
+uniqueness theorem.
+2.
+Maxwells equations in a vacuum
+(7 lectures)
+Continuity equation; Integral forms of Maxwell’s equations; Differential forms of Maxwell’s equations;
+Potential formulation; Electrostatics and magnetostatics as the time independent limit; Calculation of
+field configurations; Electric and magnetic dipoles; Connections between electromagnetism and special
+relativity.
+3.
+Electromagnetic effects in simple materials
+(8 lectures)
+Conductors: mechanisms for conduction; the method of images and the motion of particles near a
+conductor. Dielectrics: capacitance, relative permittivity; polarization & electric susceptibility; mechanism
+for polarization; electrostatics in a dielectric; Interfaces between dielectrics. Magnetism: inductance &
+permeability;
+magnetization
+&
+magnetic
+susceptibility;
+diamagnetism
+and
+paramagnetism;
+magnetostatics. Ferromagnetism: ideal ferromagnets; hysteresis.
+4.
+Electromagnetic waves
+(5 lectures)
+Maxwell’s equations in free space; Plane waves; Wave solutions for E & B fields; Poynting vector,
+irradiance & radiation pressure; Polarization of EM waves; Reflection of EM waves at a perfect conductor;
+EM waves in the presences of a current; EM waves in a dielectric.
+---
+

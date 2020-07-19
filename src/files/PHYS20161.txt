@@ -1,0 +1,36 @@
+CREDITS:10
+---
+LECTURER/S:Dr.A.Markwick
+---
+PREREQ:None
+---
+FOLLOWUP:PHYS20762, PHYS30762
+---
+CLASSES:10 lectures plus 10 half-day laboratory sessions in S3
+---
+ASSESMENT:Weekly programming tasks continually assessed in the laboratory sessions by
+demonstrators and a final task assessed by the lecturer.
+---
+AIMS:On completion successful students will:
+1.
+Be able to write programs in Python and C++ to aid them in practical situations they will face in their
+degree course and future work in physics or in other fields.
+2.
+Explain the basic theory behind programming
+---
+TXTBOOKS:N/A
+---
+SYLLABUS:The Use of Programming:
+1. Analysing, manipulating and visualising data.
+2. Numerical integration, differentiation and root-finding.
+3. Numerical solution of ordinary differential equations.
+4. Optimisation.
+5. Construction of computational models.
+Elements of Programming:
+1. Variables and organising data.
+2. Operators and input/output.
+3. Conditional expressions and loops.
+4. Structuring and designing programs.
+5. Debugging and testing.
+---
+

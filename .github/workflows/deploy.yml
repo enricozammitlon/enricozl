@@ -1,0 +1,50 @@
+name: Deploy Personal Website
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  linting:
+    runs-on: [ubuntu-latest]
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+    # ESLint and Prettier must be in `package.json`
+    - name: Install Node.js dependencies
+      run: npm install
+
+    - name: Run linters
+      uses: samuelmeuli/lint-action@v1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        # Enable linters
+        eslint: true
+        prettier: true
+
+  deploying:
+      runs-on: [ubuntu-latest]
+      steps:
+      - name: Deploying to docker registry
+        run: echo ${{ secrets.DOCKER_TOKEN }} | docker login -u enricozl --password-stdin
+
+      - uses: actions/checkout@master
+
+      - name: build
+        run: docker build --target analysis --cache-from enricozl/webstie:latest --pull -t enricozl/website:latest .
+
+      - name: push
+        run: docker push enricozl/website:latest
+
+      - name: logout
+        run: docker logout
