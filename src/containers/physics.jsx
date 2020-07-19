@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import '../css/module.css';
 import Section from '../components/section';
+import config from '../config';
 
 export default function Physics() {
   const [currentActive, setCurrentActive] = useState('aims');
@@ -184,7 +185,7 @@ export default function Physics() {
           setCurrentId(result[0].id);
         }
       };
-      xmlhttp.open('GET', 'http://localhost:8080/api/', true);
+      xmlhttp.open('GET', config.API_URL, true);
       xmlhttp.send();
     }
   }, [modules]);
@@ -202,7 +203,7 @@ export default function Physics() {
         }
       };
 
-      xmlhttp.open('GET', `http://localhost:8080/api/${currentId}`, true);
+      xmlhttp.open('GET', `${config.API_URL}/${currentId}`, true);
       xmlhttp.send();
     }
   }, [currentId, prevId]);
