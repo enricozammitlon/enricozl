@@ -5,7 +5,7 @@ This is the repository for the codebase of my personal website
 ### Tech Stack
 
 The frontend is in React.js while the backend, used to hold my modules
-taken at University, is in Node.js using Firebase Functions and can be found [https://github.com/enricozammitlon/modules-api](here).
+taken at University, is in Node.js using Firebase Functions and can be found [https://github.com/enricozammitlon/modules-api](here). The chatbot handler repository can be found [https://github.com/enricozammitlon/personal-chatbot](here).
 
 ### Note about /files
 
