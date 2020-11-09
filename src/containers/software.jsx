@@ -5,7 +5,7 @@ export default function Software() {
     <div>
       <h1>Tech</h1>
       <p>
-        Below are some of the projects/hackathons I have participated in and languages & framweorks
+        Below are some of the projects/hackathons I have participated in and languages & frameworks
         I have had some experience in. There are also the projects I am currently interested in and
         the ones I plan to tackle soon. For more projects check out my
         <span style={{ paddingRight: '5px', paddingLeft: '5px' }}>

@@ -4,7 +4,7 @@ services:
   web:
     build:
       context: .
-    image: registry.gitlab.com/superhero-science/frontend/frontend-student:latest
+    image: ricozl/webapp
 
   nginx:
     image: nginx:latest

@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import Terminal from '../components/terminal';
 
 export default function Home() {
@@ -13,7 +14,10 @@ export default function Home() {
           &nbsp;I love creating, unpacking, analysing and tinkering with any technologies and
           devices. Make sure to ask the chatbot below questions about me if you want to find out
           more. Please let me know if you find any bugs and if you want to reach out or work on
-          something, please do contact me. I&apos;m always looking for something to do!
+          something, please do contact me. I&apos;m always looking for something to do! Check out
+          my&nbsp;
+          <NavLink to="/blog">new blog</NavLink>
+          &nbsp;for interesting projects!
         </p>
         <Terminal />
       </div>

@@ -1,0 +1,20 @@
+body p{
+  text-align: justify;
+}
+.image-gallery-content .image-gallery-slide img.image-gallery-image{
+  max-height: 400px;
+}
+p.hidden {
+  display: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+div.title-bar {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}

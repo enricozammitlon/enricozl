@@ -25,6 +25,7 @@ function App() {
           <div className="Menu">
             <p className="menu-line">
               <NavLink to="/">home</NavLink>
+              <NavLink to="/blog">blog</NavLink>
               <NavLink to="/physics">physics</NavLink>
               <NavLink to="/software">tech</NavLink>
               {/* <a target='_blank' href="https://blog.ezl.me">blog</a> */}
