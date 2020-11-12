@@ -19,8 +19,7 @@ export default function Blog(props) {
   }
 
   async function readFile(url) {
-    const arrangedUrl =
-      process.env.REACT_APP_ENV === 'prod' ? url : `https://cors-anywhere.herokuapp.com/${url}`;
+    const arrangedUrl = `https://cors-anywhere.herokuapp.com/${url}`;
     const result = await axios.get(arrangedUrl);
     return result.data;
   }
