@@ -28,8 +28,7 @@ export default function BlogPost(props) {
   const [loaded, setLoaded] = useState(false);
 
   async function readFile(url) {
-    const arrangedUrl =
-      process.env.REACT_APP_ENV === 'prod' ? url : `https://cors-anywhere.herokuapp.com/${url}`;
+    const arrangedUrl = `https://cors-anywhere.herokuapp.com/${url}`;
     const result = await axios.get(arrangedUrl);
     return result.data;
   }
