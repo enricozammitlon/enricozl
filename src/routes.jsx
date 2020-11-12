@@ -6,6 +6,8 @@ import NotFound from './containers/404';
 import Physics from './containers/physics';
 import Contact from './containers/contact';
 import Blog from './containers/blog';
+import BlogPost from './components/blogPost';
+import { withFirebase } from './components/Firebase';
 
 export default () => (
   <Switch>
@@ -13,7 +15,8 @@ export default () => (
     <Route path="/software" exact component={Software} />
     <Route path="/physics" exact component={Physics} />
     <Route path="/contact" exact component={Contact} />
-    <Route path="/blog" exact component={Blog} />
+    <Route path="/blog" exact component={withFirebase(Blog)} />
+    <Route path="/blog/:slug" component={withFirebase(BlogPost)} />
     <Route component={NotFound} />
   </Switch>
 );

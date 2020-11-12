@@ -5,6 +5,8 @@ services:
     build:
       context: .
     image: ricozl/webapp
+    environment:
+      - .env
 
   nginx:
     image: nginx:latest

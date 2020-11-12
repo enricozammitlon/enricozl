@@ -12,6 +12,11 @@ h1 {
   font-size: 2.5rem;
 }
 
+postMenu.ul {
+  padding: 0;
+  list-style-type: none;
+}
+
 div.title-bar {
   display:flex;
   flex-direction: row;
