@@ -19,8 +19,8 @@ export default function Blog(props) {
   }
 
   async function readFile(url) {
-    const arrangedUrl = `https://cors-anywhere.herokuapp.com/${url}`;
-    const result = await axios.get(arrangedUrl);
+    //const arrangedUrl = `https://cors-anywhere.herokuapp.com/${url}`;
+    const result = await axios.get(url);
     return result.data;
   }
 
@@ -83,16 +83,16 @@ export default function Blog(props) {
         <div style={{ maxWidth: '65%' }}>
           {allPosts
             ? allPosts.map((postRef) => {
-                return (
-                  <BlogPost
-                    shortVersion
-                    slugOverride={postRef.location.path}
-                    key={uuid.v4()}
-                    firebaseRef={firebaseRef}
-                    storageChildRef={postRef}
-                  />
-                );
-              })
+              return (
+                <BlogPost
+                  shortVersion
+                  slugOverride={postRef.location.path}
+                  key={uuid.v4()}
+                  firebaseRef={firebaseRef}
+                  storageChildRef={postRef}
+                />
+              );
+            })
             : []}
         </div>
         <div className="postMenu" style={{ maxWidth: '25%' }}>
@@ -100,18 +100,18 @@ export default function Blog(props) {
           <ul>
             {postDetails
               ? postDetails.sort(compare).map((postDetail) => {
-                  return (
-                    <li
-                      style={{ cursor: 'pointer' }}
-                      onClick={() => history.push(`blog/${postDetail.slug}`)}
-                    >
-                      <u>
-                        {postDetail.title}
-                        {`(${postDetail.date})`}
-                      </u>
-                    </li>
-                  );
-                })
+                return (
+                  <li
+                    style={{ cursor: 'pointer' }}
+                    onClick={() => history.push(`blog/${postDetail.slug}`)}
+                  >
+                    <u>
+                      {postDetail.title}
+                      {`(${postDetail.date})`}
+                    </u>
+                  </li>
+                );
+              })
               : []}
           </ul>
         </div>

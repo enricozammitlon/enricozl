@@ -28,8 +28,8 @@ export default function BlogPost(props) {
   const [loaded, setLoaded] = useState(false);
 
   async function readFile(url) {
-    const arrangedUrl = `https://cors-anywhere.herokuapp.com/${url}`;
-    const result = await axios.get(arrangedUrl);
+    //const arrangedUrl = `https://cors-anywhere.herokuapp.com/${url}`;
+    const result = await axios.get(url);
     return result.data;
   }
 
@@ -121,8 +121,8 @@ export default function BlogPost(props) {
           <img src={images[0].original} style={{ maxWidth: '75%' }} alt="Setup" />
         )
       ) : (
-        <ImageGallery items={images} />
-      )}
+          <ImageGallery items={images} />
+        )}
       <ReactMarkdown renderers={renderers} linkTarget="_blank">
         {content}
       </ReactMarkdown>
