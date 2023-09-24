@@ -5,7 +5,7 @@ import ReactGA from 'react-ga';
 import './css/softwareng.css';
 import 'font-awesome/css/font-awesome.min.css';
 
-import { withRouter, NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import Routes from './routes';
 
 function App() {
@@ -49,4 +49,4 @@ function App() {
     </div>
   );
 }
-export default withRouter(App);
+export default App;

@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState, useEffect } from 'react';
-import { useParams, useHistory } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
@@ -13,11 +15,10 @@ import Firebase from './Firebase';
 
 export default function BlogPost(props) {
   const { firebaseRef, shortVersion } = props;
-  const history = useHistory();
+  const navigate = useNavigate();
   let { slug } = useParams();
-  let slugOverride;
+  const { slugOverride } = props;
   if (!slug) {
-    slugOverride = props.slugOverride;
     slug = slugOverride;
   }
   const storageChildRef = firebaseRef.storage.ref().child(slug);
@@ -28,7 +29,7 @@ export default function BlogPost(props) {
   const [loaded, setLoaded] = useState(false);
 
   async function readFile(url) {
-    //const arrangedUrl = `https://cors-anywhere.herokuapp.com/${url}`;
+    // const arrangedUrl = `https://cors-anywhere.herokuapp.com/${url}`;
     const result = await axios.get(url);
     return result.data;
   }
@@ -67,7 +68,7 @@ export default function BlogPost(props) {
       try {
         metaDataURL = await storageChildRef.child('info.yml').getDownloadURL();
       } catch (error) {
-        history.push('/blog');
+        navigate('/blog');
       }
       const metaData = yaml.safeLoad(await readFile(metaDataURL));
       setTitle(metaData.title);
@@ -94,7 +95,7 @@ export default function BlogPost(props) {
         setLoaded(true);
       });
     }
-  }, [storageChildRef, loaded, date, history, shortVersion, title]);
+  }, [storageChildRef, loaded, date, navigate, shortVersion, title]);
 
   return (
     <div>
@@ -105,7 +106,7 @@ export default function BlogPost(props) {
           alignItems: 'flex-end',
         }}
       >
-        <h1 style={{ cursor: 'pointer' }} onClick={() => history.push(slugOverride || slug)}>
+        <h1 style={{ cursor: 'pointer' }} onClick={() => navigate(slugOverride || slug)}>
           {shortVersion ? '> ' : ''}
           <u>{title}</u>
         </h1>
@@ -121,8 +122,8 @@ export default function BlogPost(props) {
           <img src={images[0].original} style={{ maxWidth: '75%' }} alt="Setup" />
         )
       ) : (
-          <ImageGallery items={images} />
-        )}
+        <ImageGallery items={images} />
+      )}
       <ReactMarkdown renderers={renderers} linkTarget="_blank">
         {content}
       </ReactMarkdown>
@@ -131,8 +132,10 @@ export default function BlogPost(props) {
 }
 BlogPost.defaultProps = {
   shortVersion: false,
+  slugOverride: '',
 };
 BlogPost.propTypes = {
   shortVersion: PropTypes.bool,
+  slugOverride: PropTypes.string,
   firebaseRef: PropTypes.instanceOf(Firebase).isRequired,
 };

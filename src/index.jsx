@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import './index.css';
 import App from './App';
@@ -9,13 +9,14 @@ import Firebase, { FirebaseContext } from './components/Firebase';
 
 const trackingId = 'UA-116690956-1';
 ReactGA.initialize(trackingId);
+const root = createRoot(document.getElementById('root'));
 
-ReactDOM.render(
-  <Router>
+root.render(
+  <BrowserRouter>
     <FirebaseContext.Provider value={new Firebase()}>
       <App />
     </FirebaseContext.Provider>
-  </Router>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 serviceWorker.register();

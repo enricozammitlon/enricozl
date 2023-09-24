@@ -1,14 +1,19 @@
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import React, { useState, useEffect } from 'react';
 import * as uuid from 'uuid';
 import yaml from 'js-yaml';
 import axios from 'axios';
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../css/blog.css';
+import PropTypes from 'prop-types';
 import BlogPost from '../components/blogPost';
+import Firebase from '../components/Firebase';
 
 export default function Blog(props) {
   const { firebaseRef } = props;
-  const history = useHistory();
+  const navigate = useNavigate();
   const [hiddenInfo, setHiddenInfo] = useState(true);
   const [allPosts, setAllPosts] = useState([]);
   const [postDetails, setPostDetails] = useState([]);
@@ -19,7 +24,7 @@ export default function Blog(props) {
   }
 
   async function readFile(url) {
-    //const arrangedUrl = `https://cors-anywhere.herokuapp.com/${url}`;
+    // const arrangedUrl = `https://cors-anywhere.herokuapp.com/${url}`;
     const result = await axios.get(url);
     return result.data;
   }
@@ -27,7 +32,15 @@ export default function Blog(props) {
   function compare(a, b) {
     const a1 = a.split('/').reverse().join('');
     const b1 = b.split('/').reverse().join('');
-    return a1 > b1 ? 1 : a1 < b1 ? -1 : 0;
+    if (a1 > b1) {
+      return 1;
+    }
+
+    if (a1 < b1) {
+      return -1;
+    }
+
+    return 0;
   }
 
   useEffect(() => {
@@ -44,7 +57,6 @@ export default function Blog(props) {
     };
     const loadAllPostDetails = async (blogPostDetails) => {
       const result = await Promise.all(blogPostDetails.map(loadPostDetails));
-      console.log(result);
       return result;
     };
     if (!loaded) {
@@ -83,16 +95,16 @@ export default function Blog(props) {
         <div style={{ maxWidth: '65%' }}>
           {allPosts
             ? allPosts.map((postRef) => {
-              return (
-                <BlogPost
-                  shortVersion
-                  slugOverride={postRef.location.path}
-                  key={uuid.v4()}
-                  firebaseRef={firebaseRef}
-                  storageChildRef={postRef}
-                />
-              );
-            })
+                return (
+                  <BlogPost
+                    shortVersion
+                    slugOverride={postRef.location.path}
+                    key={uuid.v4()}
+                    firebaseRef={firebaseRef}
+                    storageChildRef={postRef}
+                  />
+                );
+              })
             : []}
         </div>
         <div className="postMenu" style={{ maxWidth: '25%' }}>
@@ -100,18 +112,18 @@ export default function Blog(props) {
           <ul>
             {postDetails
               ? postDetails.sort(compare).map((postDetail) => {
-                return (
-                  <li
-                    style={{ cursor: 'pointer' }}
-                    onClick={() => history.push(`blog/${postDetail.slug}`)}
-                  >
-                    <u>
-                      {postDetail.title}
-                      {`(${postDetail.date})`}
-                    </u>
-                  </li>
-                );
-              })
+                  return (
+                    <li
+                      style={{ cursor: 'pointer' }}
+                      onClick={() => navigate(`blog/${postDetail.slug}`)}
+                    >
+                      <u>
+                        {postDetail.title}
+                        {`(${postDetail.date})`}
+                      </u>
+                    </li>
+                  );
+                })
               : []}
           </ul>
         </div>
@@ -119,3 +131,8 @@ export default function Blog(props) {
     </div>
   );
 }
+
+Blog.defaultProps = {};
+Blog.propTypes = {
+  firebaseRef: PropTypes.instanceOf(Firebase).isRequired,
+};

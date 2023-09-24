@@ -1,5 +1,5 @@
-import app from 'firebase/app';
-import 'firebase/storage';
+import app from 'firebase/compat/app';
+import 'firebase/compat/storage';
 
 const config = {
   apiKey: process.env.REACT_APP_API_KEY,
